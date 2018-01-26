@@ -1,5 +1,5 @@
 body {
-  font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', "HelveticaNeue", "Helvetica Neue", sans-serif;
   color: #222; }
 
 .email {
@@ -8,6 +8,10 @@ body {
 
 img {
     max-width: 20%;
+}
+
+.hero {
+    margin-top: 30%;
 }
 
 /* Typography
@@ -20,6 +24,10 @@ h2 { font-size: 3.2rem; line-height: 1.25; letter-spacing: -.1rem; }
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
   h2 { font-size: 4.2rem; }
+    
+.hero {
+    margin-top: 0%;
+}
 }
     
 
